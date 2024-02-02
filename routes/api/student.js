@@ -3,7 +3,6 @@ const path = require("path");
 const fs = require("fs");
 const app = express();
 const authToken = require("../../shared/token");
-const employeeModel = require("../../shared/models/employee.model");
 const router = express.Router();
 const mysqlConnection = require("../../shared/connections/mysql");
 const multer = require("multer");
