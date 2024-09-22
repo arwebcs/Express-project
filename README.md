@@ -17,6 +17,7 @@ This is a simple project in express, where Mongo, MySQL connection is covered. B
 ```
     npm install mongoose --save
     npm install mysql --save
+    npm install mysql2 --save
 
 ```
 
